@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>Contact Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #80deea);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contact-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      padding: 2rem;
+      max-width: 600px;
+      margin: 3rem auto;
+      animation: fadeInUp 1s ease forwards;
+    }
+    .contact-card h3 {
+      color: #00796b;
+      margin-bottom: 1rem;
+    }
+    .contact-info p {
+      font-size: 1.1rem;
+      margin: 0.6rem 0;
+    }
+    .icon {
+      color: #00796b;
+      margin-right: 0.8rem;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contact-card">
+    <h1>Contact Us</h1>
+    <p>Have questions? We’re here to help! Reach out anytime via the info below or send us a message.</p>
+
+    <div class="contact-info">
+      <p><i class="fas fa-map-marker-alt icon"></i><strong>Address:</strong> 123 Auto Lane, Motor City, MI 48000</p>
+      <p><i class="fas fa-envelope icon"></i><strong>Email:</strong> support@bestcars.com</p>
+      <p><i class="fas fa-phone icon"></i><strong>Phone:</strong> (800) 123-4567</p>
+      <p><i class="fas fa-clock icon"></i><strong>Business Hours:</strong> Mon–Fri, 9am–5pm</p>
+    </div>
+  </div>
+</body>
+</html>
